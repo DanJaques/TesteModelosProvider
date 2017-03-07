@@ -1,0 +1,10 @@
+applications:
+- path: mendixBoilerplate.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: TesteModelosProvider
+  host: TesteModelosProvider
+  disk_quota: 1024M
+  services:
+  - TesteModelosProvider-cleardb
